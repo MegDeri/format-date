@@ -7,7 +7,7 @@ describe('formatDate', () => {
             const actual = formatDate(23);
     
             const expected = '23s';
-    
+    //console.log("mam", formatDate);
             assert.equal(actual, expected);
         });
 
